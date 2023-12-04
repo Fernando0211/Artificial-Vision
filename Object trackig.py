@@ -1,4 +1,3 @@
-# importing libraries
 import cv2 as cv
 import numpy as np
 
@@ -30,11 +29,8 @@ while(vid.isOpened()):
 
 		cv.imshow('Frame', frame)
 
-	# Press X on keyboard to exit
 		if cv.waitKey(30) & 0xFF == ord('x'):
 			break
-
-# Break the loop
 	else:
 		break
 
